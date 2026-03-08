@@ -19,7 +19,8 @@ class Torus : public Shape3D<T> {
 
 };
 template<class T>
-inline ShapeResultData<T> Torus<T>::compute() {
+inline ShapeResult Torus<T>::compute() {
+    ShapeResult result;
 
     ShapeResultData<T> result;
 
