@@ -1,6 +1,7 @@
 #ifndef _SHAPEPARAM_H
 #define _SHAPEPARAM_H
 
+#define PARAM_RADIUS_2 PARAM_WIDTH 
 
 #include <vector>
 using namespace std;
