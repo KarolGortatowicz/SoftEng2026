@@ -12,7 +12,7 @@ class Torus : public Shape3D<T> {
 public:
     inline virtual ShapeResult<T> compute();
     inline string print();
-    inline Torus(const ShapeParam<T> & param);
+    inline Torus(const ShapeParam<T>& param);
 };
 
 template<class T>
@@ -40,6 +40,6 @@ inline string Torus<T>::print() {
 }
 
 template<class T>
-inline Torus<T>::Torus(const ShapeParam<T> & param) : Shape3D<T>(param) {}
+inline Torus<T>::Torus(const ShapeParam<T>& param) : Shape3D<T>(param) {}
 
 #endif
